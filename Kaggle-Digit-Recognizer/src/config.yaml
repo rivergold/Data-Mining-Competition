@@ -1,0 +1,12 @@
+config:
+    dataset_path: '../dataset/'
+# model config
+cnn_model:
+    random_seed: 123456
+    shuffle train data: True
+    n_epoch: 50
+    batch_size: 32
+    save_trained_model: True
+    save_trained_model_path: '../trained-model/CIFAR-10-Trained-model.h5'
+    load_trained_model: True
+    trained_model_path: '../trained-model/CIFAR-10-Trained-model.h5'
